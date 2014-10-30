@@ -1,7 +1,7 @@
 var app = angular.module('lawyerErr');
 
 app.controller('myCtrl', function($scope, myService){
-	$scope.test = "Lawyer Score Board: ";
+	$scope.test = "Lawyer Scoreboard: ";
 
 
 	$scope.getLawyers = function(){
